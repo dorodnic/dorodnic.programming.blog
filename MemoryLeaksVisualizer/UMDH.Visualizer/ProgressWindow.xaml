@@ -1,0 +1,10 @@
+﻿<Window x:Class="UMDH.Visualizer.ProgressWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        WindowStartupLocation="CenterScreen" WindowStyle="ToolWindow"
+        ShowInTaskbar="True" x:Name="progressWindow"
+        Title="Loading - " Height="50" Width="500">
+    <Grid>
+        <ProgressBar Minimum="0" Maximum="100" x:Name="progressBar" />
+    </Grid>
+</Window>

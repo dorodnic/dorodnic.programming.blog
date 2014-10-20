@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestApp", "TestApp\TestApp.vcxproj", "{3DF1315B-F3CD-4771-B8E0-443F7B41F0C4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Common", "Common\Common.vcxproj", "{76E5C120-45B5-4D8A-B370-A6F118F7A427}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimpleShapes", "SimpleShapes\SimpleShapes.vcxproj", "{15AD35ED-E6CB-471D-9025-3FDBC373075B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DF1315B-F3CD-4771-B8E0-443F7B41F0C4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3DF1315B-F3CD-4771-B8E0-443F7B41F0C4}.Debug|Win32.Build.0 = Debug|Win32
+		{3DF1315B-F3CD-4771-B8E0-443F7B41F0C4}.Release|Win32.ActiveCfg = Release|Win32
+		{3DF1315B-F3CD-4771-B8E0-443F7B41F0C4}.Release|Win32.Build.0 = Release|Win32
+		{76E5C120-45B5-4D8A-B370-A6F118F7A427}.Debug|Win32.ActiveCfg = Debug|Win32
+		{76E5C120-45B5-4D8A-B370-A6F118F7A427}.Debug|Win32.Build.0 = Debug|Win32
+		{76E5C120-45B5-4D8A-B370-A6F118F7A427}.Release|Win32.ActiveCfg = Release|Win32
+		{76E5C120-45B5-4D8A-B370-A6F118F7A427}.Release|Win32.Build.0 = Release|Win32
+		{15AD35ED-E6CB-471D-9025-3FDBC373075B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{15AD35ED-E6CB-471D-9025-3FDBC373075B}.Debug|Win32.Build.0 = Debug|Win32
+		{15AD35ED-E6CB-471D-9025-3FDBC373075B}.Release|Win32.ActiveCfg = Release|Win32
+		{15AD35ED-E6CB-471D-9025-3FDBC373075B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
