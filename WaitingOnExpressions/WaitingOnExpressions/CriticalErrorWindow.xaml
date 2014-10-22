@@ -1,0 +1,25 @@
+﻿<Window x:Class="WaitingOnExpressions.CriticalErrorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Loaded="CriticalErrorWindow_OnLoaded"
+        WindowStyle="ToolWindow" WindowStartupLocation="CenterOwner"
+        Title="CriticalErrorWindow" Height="120" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition Width="2*" />
+        </Grid.ColumnDefinitions>
+        
+        <Label Grid.ColumnSpan="2">Please copy the code from form title to unlock:</Label>
+        <Label Grid.Row="1" Grid.Column="0">Code:</Label>
+        <TextBox x:Name="txtBox" Grid.Row="1" Grid.Column="1" Margin="3" />
+        
+        <Button Grid.Row="2" Grid.Column="1" Margin="3" x:Name="btnUnlock">Unlock</Button>
+    </Grid>
+</Window>
