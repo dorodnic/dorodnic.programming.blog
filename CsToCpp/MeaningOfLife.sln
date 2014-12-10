@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22129.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MeaningOfLife.Cpp", "MeaningOfLife.Cpp\MeaningOfLife.Cpp.vcxproj", "{E07D381B-84F5-4DCA-B9D4-A4C11FD8BDD4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MeaningOfLife.Cpp.CLI", "MeaningOfLife.Cpp.CLI\MeaningOfLife.Cpp.CLI.vcxproj", "{146F3245-7F2D-416F-9978-0FA733AD2F2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeaningOfLife.WPF", "MeaningOfLife.WPF\MeaningOfLife.WPF.csproj", "{B5080589-0034-40F9-9A73-5F9851928F44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E07D381B-84F5-4DCA-B9D4-A4C11FD8BDD4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E07D381B-84F5-4DCA-B9D4-A4C11FD8BDD4}.Debug|Win32.Build.0 = Debug|Win32
+		{E07D381B-84F5-4DCA-B9D4-A4C11FD8BDD4}.Release|Win32.ActiveCfg = Release|Win32
+		{E07D381B-84F5-4DCA-B9D4-A4C11FD8BDD4}.Release|Win32.Build.0 = Release|Win32
+		{146F3245-7F2D-416F-9978-0FA733AD2F2F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{146F3245-7F2D-416F-9978-0FA733AD2F2F}.Debug|Win32.Build.0 = Debug|Win32
+		{146F3245-7F2D-416F-9978-0FA733AD2F2F}.Release|Win32.ActiveCfg = Release|Win32
+		{146F3245-7F2D-416F-9978-0FA733AD2F2F}.Release|Win32.Build.0 = Release|Win32
+		{B5080589-0034-40F9-9A73-5F9851928F44}.Debug|Win32.ActiveCfg = Debug|x86
+		{B5080589-0034-40F9-9A73-5F9851928F44}.Debug|Win32.Build.0 = Debug|x86
+		{B5080589-0034-40F9-9A73-5F9851928F44}.Release|Win32.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
